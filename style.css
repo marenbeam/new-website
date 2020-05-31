@@ -9,6 +9,13 @@ body {
   line-height: 1.5;
   font-family: 'IBM Plex Serif', serif;
   font-size: 1.25em;
+  max-width: 80ch;
+  margin: auto;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
 }
 
 header {
@@ -26,8 +33,4 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'IBM Plex Sans', sans-serif;
-}
-
-hr {
-  width: 60ch;
 }
